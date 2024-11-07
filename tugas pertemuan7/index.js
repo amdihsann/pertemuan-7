@@ -45,7 +45,7 @@ app.delete('/todo/:id', (req, res) => {
   const index = todos.findIndex(t => t.id === id);
   
   if (index === -1) {
-    return res.status(404).json({ message: 'wayoo, ga ada kan' });
+    return res.status(404).json({ message: 'wayoo, sudah hilang' });
   }
 
   todos.splice(index, 1);
