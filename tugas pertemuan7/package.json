@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "untuk membuat todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "isan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "task": "hitlab",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "task": "webdev",
+      "completed": false
+    }
+  ]
+}
